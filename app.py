@@ -3,7 +3,7 @@ import numpy as np
 from joblib import dump, load
 
 # Load your pre-trained model
-model = load('model.joblib')
+model = load('test_model.joblib')
 
 # Initialize Flask app
 app = Flask(__name__)
